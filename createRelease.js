@@ -4,9 +4,10 @@ var GitHub = require('github-base');
 var version = process.argv[2];
 
 if(!process.argv[3]){
-  console.log("please provide a valid GITHUB_ACCESS_TOCKEN")
+  console.log("please provide a valid GITHUB_ACCESS_TOCKEN");
   return;
 }
+
 var github = new GitHub({
   token: process.argv[3]
 });

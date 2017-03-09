@@ -24,10 +24,10 @@ sh updateDocsVersion.sh 17.2.0 17.3.0 17.4.0
 
 Usage:
 ```
-sh updateDocsVersion.sh CURRENT_VERSION VERSION_TO_RELEASE NEXT_VERSION REMOTE_NAME
+node createRelease.js VERSION_TO_RELEASE GITHUB_ACCESS_TOKEN
 ```
 
 Example
 ```
-sh updateDocsVersion.sh 17.2.0 17.3.0 17.4.0
+node createRelease.js 17.2.0 1ad2f4656a53a27b32d23a278a
 ```
