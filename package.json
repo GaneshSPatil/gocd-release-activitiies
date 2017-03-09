@@ -1,0 +1,23 @@
+{
+  "name": "gocd-release-activities",
+  "version": "0.0.1",
+  "description": "a simple tool to perform post release activities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaneshSPatil/gocd-release-activitiies.git"
+  },
+  "author": "Ganesh Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaneshSPatil/gocd-release-activitiies/issues"
+  },
+  "homepage": "https://github.com/GaneshSPatil/gocd-release-activitiies#readme",
+  "dependencies": {
+    "github-base": "^0.5.1",
+    "request": "^2.80.0"
+  }
+}
