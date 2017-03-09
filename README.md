@@ -17,3 +17,17 @@ Example
 ```
 sh updateDocsVersion.sh 17.2.0 17.3.0 17.4.0
 ```
+
+### createRelease.sh
+* Tags version in repository
+* Creates a new github release
+
+Usage:
+```
+sh updateDocsVersion.sh CURRENT_VERSION VERSION_TO_RELEASE NEXT_VERSION REMOTE_NAME
+```
+
+Example
+```
+sh updateDocsVersion.sh 17.2.0 17.3.0 17.4.0
+```
