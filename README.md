@@ -31,3 +31,17 @@ Example
 ```
 node createRelease.js 17.2.0 1ad2f4656a53a27b32d23a278a
 ```
+
+
+### updateBuildGradle.sh
+* Updates build.gradle file to next revision
+
+Usage:
+```
+sh updateBuildGradle.sh CURRENT_VERSION NEXT_VERSION
+```
+
+Example
+```
+sh updateBuildGradle.sh 17.2.0 17.3.0
+```
