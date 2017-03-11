@@ -10,7 +10,7 @@ Update various doc sites's /current and create a release branch:
 
 Usage:
 ```
-sh updateDocsVersion.sh CURRENT_VERSION VERSION_TO_RELEASE NEXT_VERSION REMOTE_NAME
+sh updateDocsVersion.sh CURRENT_VERSION VERSION_TO_RELEASE NEXT_VERSION
 ```
 
 Example
