@@ -1,5 +1,5 @@
 # gocd-release-activitiies
-Scripts to do post release activities
+Scripts to perform GoCD post release activities
 
 ### updateDocsVersion.sh
 Update various doc sites's /current and create a release branch:
