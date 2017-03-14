@@ -45,3 +45,16 @@ Example
 ```
 sh updateBuildGradle.sh 17.2.0 17.3.0
 ```
+
+### updateGoPluginsPOMXml.sh
+* updates go-plugins pom.xml - https://github.com/gocd/go-plugins/blob/master/pom.xml
+
+Usage:
+```
+sh updateGoPluginsPOMXml.sh RELEASED_VERSION NEXT_VERSION
+```
+
+Example
+```
+sh updateBuildGradle.sh 17.3.0 17.4.0
+```
