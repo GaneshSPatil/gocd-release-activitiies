@@ -8,7 +8,7 @@ REPO="gocd"
 
 echo "** Updating build.gradle file from $EXISTING_VERSION to $VERSION_TO_UPDATE revision\n"
 
-#mkdir $REPO
+mkdir $REPO
 echo "Cloning '$GOCD_REPO_URL' into '$REPO'"
 git clone $GOCD_REPO_URL $REPO
 echo "Done: Cloning '$GOCD_REPO_URL'"
