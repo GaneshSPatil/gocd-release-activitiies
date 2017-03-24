@@ -31,7 +31,7 @@ for i in "${!ALL_DOCS_REPO_URLS[@]}"; do
   echo "Updating docs for: '$REPO'"
 
   echo "Cloning '$REPO_URL' into '$REPO'"
-  git clone $DOCS_GOCD_REPO_LINK $REPO
+  git clone $REPO_URL $REPO
   echo "Done: Cloning '$REPO_URL'"
 
   cd $REPO
